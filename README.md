@@ -1,1 +1,0 @@
-# etsmtl-pfe-cloudnative-template
