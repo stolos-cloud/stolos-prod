@@ -14,7 +14,7 @@ spec:
   project: default
   source:
     repoURL: 'https://github.com/stolos-cloud/stolos-prod.git'
-    path: system/argocd/
+    path: argocd/
     targetRevision: HEAD
   syncPolicy:
     automated:
