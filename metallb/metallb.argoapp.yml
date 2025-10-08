@@ -11,7 +11,7 @@ spec:
         repoURL: https://github.com/stolos-cloud/stolos-prod.git
         revision: HEAD
         files:
-          - path: k8s-manifest/common.yml
+          - path: common.yml
   template:
     metadata:
       name: metallb
