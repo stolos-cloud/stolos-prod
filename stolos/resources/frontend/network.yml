@@ -44,7 +44,7 @@ metadata:
 spec:
   secretName: stolos-ingress-tls
   issuerRef:
-    name: letsencrypt-prod
+    name: letsencrypt-staging
     kind: ClusterIssuer
   commonName: stolos.cloud
   dnsNames: [stolos.cloud]

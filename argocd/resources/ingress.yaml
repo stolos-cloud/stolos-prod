@@ -4,7 +4,7 @@ metadata:
   name: argocd
   namespace: stolos-argocd
   annotations:
-    cert-manager.io/cluster-issuer: letsencrypt-prod
+    cert-manager.io/cluster-issuer: letsencrypt-staging
 spec:
   virtualhost:
     fqdn: argocd.stolos.cloud
@@ -31,7 +31,7 @@ metadata:
 spec:
   secretName: argocd-tls
   issuerRef:
-    name: letsencrypt-prod
+    name: letsencrypt-staging
     kind: ClusterIssuer
   commonName: argocd.stolos.cloud
   dnsNames:
