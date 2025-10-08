@@ -2,7 +2,7 @@ apiVersion: projectcontour.io/v1
 kind: HTTPProxy
 metadata:
   name: argocd
-  namespace: argocd
+  namespace: stolos-argocd
   annotations:
     cert-manager.io/cluster-issuer: letsencrypt-prod
 spec:
@@ -27,7 +27,7 @@ apiVersion: cert-manager.io/v1
 kind: Certificate
 metadata:
   name: argocd-tls
-  namespace: argocd
+  namespace: stolos-argocd
 spec:
   secretName: argocd-tls
   issuerRef:

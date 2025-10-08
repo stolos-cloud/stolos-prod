@@ -6,10 +6,10 @@ metadata:
   finalizers:
   - resources-finalizer.argocd.argoproj.io
   name: argocd
-  namespace: argocd
+  namespace: stolos-argocd
 spec:
   destination:
-    namespace: argocd
+    namespace: stolos-argocd
     server: https://kubernetes.default.svc
   project: default
   source:

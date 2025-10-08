@@ -6,7 +6,7 @@ metadata:
   finalizers:
   - resources-finalizer.argocd.argoproj.io
   name: cnpg-system
-  namespace: argocd
+  namespace: stolos-argocd
 spec:
   destination:
     namespace: cnpg-system

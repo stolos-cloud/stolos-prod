@@ -2,7 +2,7 @@ apiVersion: argoproj.io/v1alpha1
 kind: ApplicationSet
 metadata:
   name: TEMPLATE
-  namespace: argocd
+  namespace: stolos-argocd
 spec:
   goTemplate: true
   goTemplateOptions: ["missingkey=error"]
@@ -15,7 +15,7 @@ spec:
   template:
     metadata:
       name: "TEMPLATE"
-      namespace: argocd
+      namespace: stolos-argocd
       annotations:
         argocd.argoproj.io/sync-wave: "0"
     spec:

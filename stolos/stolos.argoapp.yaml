@@ -6,7 +6,7 @@ metadata:
   finalizers:
   - resources-finalizer.argocd.argoproj.io
   name: stolos-app
-  namespace: argocd
+  namespace: stolos-argocd
 spec:
   destination:
     namespace: stolos-system
