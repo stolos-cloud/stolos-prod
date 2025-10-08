@@ -1,2 +1,2 @@
 base_domain: prod.stolos.local
-lb_ip: 0.0.0.0
+lb_ip: 192.168.2.100/24
