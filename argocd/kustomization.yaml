@@ -11,7 +11,7 @@ resources:
 helmCharts:
   - name: argo-cd
     repo: https://argoproj.github.io/argo-helm
-    releaseName: argocd
+    releaseName: stolos-argocd
     version: 7.8.26
     valuesFile: helm/values.yaml
 
