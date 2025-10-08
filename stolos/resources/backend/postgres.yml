@@ -10,8 +10,6 @@ spec:
     initdb:
       database: stolos
       owner: stolos
-      secret:
-        name: stolos-postgresql
   storage:
     size: 2Gi
     storageClass: nfs-csi
