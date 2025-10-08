@@ -4,7 +4,6 @@ kind: Kustomization
 namespace: stolos-argocd
 
 resources:
-  - resources/base.yaml
   - resources/argocd-image-updater.yaml
   - resources/ingress.yaml
 
