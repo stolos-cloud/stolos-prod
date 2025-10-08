@@ -5,7 +5,7 @@ metadata:
     argocd.argoproj.io/sync-wave: "-10"
   finalizers:
   - resources-finalizer.argocd.argoproj.io
-  name: argocd
+  name: contour
   namespace: stolos-argocd
 spec:
   destination:
@@ -14,7 +14,7 @@ spec:
   project: default
   source:
     repoURL: 'https://github.com/stolos-cloud/stolos-prod.git'
-    path: k8s-manifests/base/contour
+    path: contour
     targetRevision: HEAD
   syncPolicy:
     automated:

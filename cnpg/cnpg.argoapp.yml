@@ -14,7 +14,7 @@ spec:
   project: default
   source:
     repoURL: 'https://github.com/stolos-cloud/stolos-prod.git'
-    path: k8s-manifests/base/cnpg
+    path: cnpg
     targetRevision: HEAD
   syncPolicy:
     automated:

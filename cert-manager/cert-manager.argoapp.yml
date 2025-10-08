@@ -23,7 +23,7 @@ spec:
       ref: values
     - repoURL: 'https://github.com/stolos-cloud/stolos-prod.git'
       targetRevision: main
-      path: k8s-manifests/base/cert-manager/resources
+      path: cert-manager/resources
   syncPolicy:
     automated: {}
     syncOptions:
