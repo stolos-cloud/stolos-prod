@@ -14,7 +14,7 @@ spec:
         name: stolos-postgresql
   storage:
     size: 2Gi
-    storageClass: cephfs
+    storageClass: nfs-csi
   postgresql:
     parameters:
       wal_compression: "on"
