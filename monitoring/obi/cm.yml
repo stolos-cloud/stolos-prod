@@ -14,6 +14,7 @@ data:
     otel_traces_export:
       endpoint: http://alloy:4317
       protocol: grpc
+      features: [network, application]
       sampler:
         name: parentbased_traceidratio
         arg: "0.1"
