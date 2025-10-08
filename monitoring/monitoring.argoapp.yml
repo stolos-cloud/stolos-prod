@@ -13,7 +13,7 @@ spec:
     server: https://kubernetes.default.svc
   project: default
   source:
-    repoURL: 'https://github.com/Simon-Boyer/etsmtl-pfe-cloudnative.git'
+    repoURL: 'https://github.com/stolos-cloud/stolos-prod.git'
     path: k8s-manifests/base/monitoring
     targetRevision: HEAD
   syncPolicy:

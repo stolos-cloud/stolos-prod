@@ -8,7 +8,7 @@ spec:
   goTemplateOptions: ["missingkey=error"]
   generators:
     - git:
-        repoURL: https://github.com/Simon-Boyer/etsmtl-pfe-cloudnative.git
+        repoURL: https://github.com/stolos-cloud/stolos-prod.git
         revision: HEAD
         files:
           - path: k8s-manifest/common.yml
@@ -24,7 +24,7 @@ spec:
         server: "https://kubernetes.default.svc"
       project: "default"
       source:
-        repoURL: https://github.com/Simon-Boyer/etsmtl-pfe-cloudnative.git
+        repoURL: https://github.com/stolos-cloud/stolos-prod.git
         targetRevision: HEAD
         path: k8s-manifests/TEMPLATE
       syncPolicy:

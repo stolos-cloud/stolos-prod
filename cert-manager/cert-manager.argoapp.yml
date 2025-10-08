@@ -18,10 +18,10 @@ spec:
             value: "true"
       repoURL: https://charts.jetstack.io
       targetRevision: v1.18.2
-    - repoURL: 'https://github.com/Simon-Boyer/etsmtl-pfe-cloudnative.git'
+    - repoURL: 'https://github.com/stolos-cloud/stolos-prod.git'
       targetRevision: main
       ref: values
-    - repoURL: 'https://github.com/Simon-Boyer/etsmtl-pfe-cloudnative.git'
+    - repoURL: 'https://github.com/stolos-cloud/stolos-prod.git'
       targetRevision: main
       path: k8s-manifests/base/cert-manager/resources
   syncPolicy:
