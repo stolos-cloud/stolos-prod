@@ -39,6 +39,10 @@ spec:
             secretKeyRef:
               name: postgresql-stolos-app
               key: password
+        - name: ADMIN_EMAIL
+          value: admin@example.com
+        - name: ADMIN_PASSWORD
+          value: Admin123!
         envFrom:
         - secretRef:
             name: gcp-service-account
