@@ -2,6 +2,7 @@ namespace: metallb-system
 
 resources:
   - https://github.com/metallb/metallb//config/native?ref=v0.15.2
+  - resources/ip-reservation.yml
 
 patches:
   # add pod security labels to ns
